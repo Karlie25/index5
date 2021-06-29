@@ -1,0 +1,201 @@
+html,body{
+  font-family: 'Basic Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right:100px;
+  text-align:center;
+  font-size:30px;
+  background-color:#FFDEB5;
+}
+h1{
+  font-family: 'Fredoka One',cursive;
+  font-size: 2.5em;
+  background-color:#B1E2FF;
+  padding: 30px 30px;
+  text-align:left;
+  text-decoration: none;
+}
+h2{
+  font-family: 'Fredoka One',cursive;
+  font-size: 1.5em; 
+}
+.grid{
+	display:grid;
+	grid-template-columns: repeat(3,33.33%);
+	border:1px solid black;
+	height:300px;
+}
+.grid div{
+	border:1px solid black;
+}
+/*<!--expand-ggl-->*/
+.expand-gglFonts p{
+  font-family: 'Baloo Tammudu 2',Helvetica, cursive;
+  font-size:50px;
+  color:#f57600 ;
+  animation-name:expand;
+  animation-duration:1s;
+}
+.expand-gglFonts p:hover{
+	animation:expand 1s ease infinite alternate;
+}
+@keyframes expand {
+  from {
+    font-size:10px;
+    font-weight:400;
+  }
+
+  75% {
+    font-size: 25px;
+    font-weight:600;
+  }
+
+  to {
+   font-size: 50px;
+   font-weight:800;
+ }
+}
+/*<!--expand-adobe-->*/
+.expand-adobeFonts p{
+  font-family: sommet,Helvetica, sans-serif;
+  font-weight: 400;
+  font-size:50px;
+  color:#f57600 ;
+  animation-name:expand;
+  animation-duration:1s;
+}
+.expand-adobeFonts p:hover{
+	animation:expand 1s ease infinite alternate;
+}
+/*<!--expand selfhosted--->*/
+@font-face{
+  src: url('fonts/NeueBit-Bold.otf') format('otf');
+  font-family: NeueBit-Bold,sans-serif;
+}
+.expand-hostedFonts p{
+  font-family: 'NeueBit-Bold', sans-serif;
+  font-weight: 400;
+  font-size:50px;
+  color:#f57600 ;
+  animation-name:expand;
+  animation-duration:1s;
+}
+.expand-hostedFonts p:hover{
+	animation:expand 1s ease infinite alternate;
+}
+/*jump ggl fonts*/
+.jump-gglFonts p{
+  font-family: 'Londrina Solid', cursive;
+  font-size:50px;
+  color:#1e0394 ;
+  animation-name:jump;
+  animation-duration:2s;
+}
+.jump-gglFonts p:hover{
+	animation:jump 2s ease infinite alternate;
+}
+@keyframes jump {
+  from {
+    transform:translateX(0);
+  }
+
+  25% {
+   transform:translate(-50px,-50px);
+ }
+ 50%{
+  transform:translate(-100px,0px);
+}
+75%{
+  transform:translate(50px,-50px);
+}
+to {
+ transform:translate(100px,0px);
+}
+}
+/*jump adobe*/
+.jump-adobeFonts p{
+  font-family: funkydori, sans-serif;
+  font-size:50px;
+  color:#1e0394 ;
+  animation-name:jump;
+  animation-duration:2s;
+}
+.jump-adobeFonts p:hover{
+	animation:jump 2s ease infinite alternate;
+}
+/*jump hosted*/
+@font-face{
+  src: url('fonts/Supply-UltraLight.otf') format('otf');
+  font-family: Supply-UltraLight,sans-serif;
+}
+.jump-hostedFonts p{
+  font-family: Supply-UltraLight,sans-serif;
+  font-size:50px;
+  color:#1e0394 ;
+  animation-name:jump;
+  animation-duration:2s;
+}
+.jump-hostedFonts p:hover{
+	animation:jump 2s ease infinite alternate;
+}
+
+
+/*shake ggl*/
+.shake-gglFonts p{
+  font-family: 'Permanent Marker', cursive;;
+  font-size:50px;
+  color:#214701;
+  animation-name:shake;
+  animation-duration:1s;
+}
+.shake-gglFonts p:hover{
+	animation:shake 1s ease infinite alternate;
+}
+@keyframes shake {
+  from {
+    transform:translateX(0);
+  }
+  25% {
+   transform:translate(-50px);
+ }
+ 50%{
+  transform:translate(0px);
+}
+75%{
+  transform:translate(50px);
+}
+to {
+ transform:translate(0);
+}
+}
+/*shake adobe*/
+.shake-adobeFonts p{
+  font-family: cortado, sans-serif;
+  font-size:50px;
+  color:#214701 ;
+  animation-name:shake;
+  animation-duration:1s;
+}
+.shake-adobeFonts p:hover{
+	animation:shake 1s ease infinite alternate;
+}
+/*shake hosted*/
+@font-face{
+  src: url('fonts/Casa-Regular.otf') format('otf');
+  font-family: Casa-Regular,sans-serif;
+}
+.shake-hostedFonts p{
+  font-family: Casa-Regular, sans-serif;
+  font-size:50px;
+  color:#214701 ;
+  animation-name:shake;
+  animation-duration:1s;
+}
+.shake-hostedFonts p:hover{
+	animation:shake 1s ease infinite alternate;
+}
+
+
+

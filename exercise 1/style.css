@@ -1,0 +1,27 @@
+body{
+	font-family: 'Basic Sans',sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.header h1{
+	font-family: 'Fredoka One',cursive;
+	font-size: 2.5em;
+	text-align: center;
+	background-color:#B1E2FF;
+	padding: 30px 30px;
+	text-align:left;
+	text-decoration: none;
+
+}
+.header p{
+font-family: basic-sans, sans-serif;
+font-weight: 400;
+font-style: italic;
+text-align: center;
+font-size: 1.5em;
+}

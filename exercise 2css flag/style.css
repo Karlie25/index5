@@ -1,0 +1,308 @@
+html,body{
+	font-family: 'Basic Sans',Helvetica, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+h1{
+	font-family: 'Fredoka One',cursive;
+	font-size: 2.5em;
+	background-color:#BFD6A3;
+	padding: 30px 30px;
+	text-align:left;
+	text-decoration: none;
+}
+h2{
+	font-family: 'Fredoka One',cursive;
+	font-size: 1.5em;	
+}
+
+.flag{
+	display:grid;
+	margin: auto;
+  	width: 50%;
+  	padding: 10px;
+}
+/*Start Sweeden Flag*/
+.flag-Sweden{
+	width:160px;
+	height:100px;
+	grid-template-columns: 50px 20px 90px; 
+	grid-template-rows: 40px 20px 40px;
+}
+.flag-Sweden div{
+}
+.grid-item-blue1{
+	background-color: #2D679B;
+	grid-column-start:1;
+	grid-column-end:span 3;
+	grid-row:1/2;
+}
+.grid-item-yellow-vertical{
+	background-color: #2D679B;
+	grid-row:5/7;
+
+}
+.grid-item-yellow-horizontal{
+	background-color: #F8D047;
+}
+.grid-item-blue2{
+	background-color: #F8D047;
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row:1/10;
+}
+.grid-item-blue3{
+	background-color:  #F8D047;
+}
+.grid-item-blue4{
+	background-color:  #2D679B;
+}
+.grid-item-blue5{
+	background-color:  #2D679B;
+}
+/*End Sweden Flag*/
+
+
+/*start Denmark Flag*/
+.flag-Denmark{
+	width:180px;
+	height:150px;
+	grid-template-columns: 60px 20px 90px; 
+	grid-template-rows: 60px 20px 60px;
+	
+}
+.flag-Denmark div{
+/*	border:1px solid black;*/
+}
+.grid-item-red1{
+	background-color: #DC3732;
+}
+.grid-item-white1{
+	background-color: white;
+}
+.grid-item-red2{
+	background-color: #DC3732;
+}
+.grid-item-white2{
+	background-color: white;
+}
+.grid-item-white3{
+	background-color: white;
+}
+.grid-item-white4{
+		background-color: white;
+}
+.grid-item-red3{
+		background-color: #DC3732;
+}
+.grid-item-white5{
+	background-color: white;
+}
+.grid-item-red4{
+	background-color: #DC3732;
+}
+
+/*End Denmark Flag*/
+
+/*start Finland Flag*/
+.flag-Finland{
+	width:180px;
+	height:130px;
+	grid-template-columns: 50px 30px 100px; 
+	grid-template-rows: 50px 30px 50px;
+	
+}
+.flag-Finland div{
+/*border:1px solid black;*/
+}
+.grid-item-whiteF1{
+	background-color: white;
+	border:0.25px solid black;
+}
+.grid-item-blueF1{
+	background-color: #2D679B;
+}
+.grid-item-whiteF2{
+	background-color: white;
+	border:0.25px solid black;
+}
+.grid-item-blueF2{
+	background-color: #2D679B;
+}
+.grid-item-blueF3{
+	background-color: #2D679B;
+}
+.grid-item-blueF4{
+		background-color: #2D679B;
+}
+.grid-item-whiteF3{
+	background-color: white;
+		border:0.25px solid black;
+}
+.grid-item-blueF5{
+	background-color: #2D679B;
+}
+.grid-item-whiteF4{
+	background-color: white;
+		border:0.25px solid black;
+}
+
+/*End Finland Flag*/
+
+
+/*start Iceland Flag*/
+.flag-Iceland{
+	width:250px;
+	height:180px;
+	grid-template-columns: 70px 10px 20px 10px 140px; 
+	grid-template-rows: 70px 10px 20px 10px 70px;
+	
+}
+.flag-Iceland div{
+/*border:1px solid black;*/
+}
+.grid-item-blueI1{
+	background-color:#2D76B7;
+}
+.grid-item-whiteI1{
+	background-color:white;
+}
+.grid-item-redI1{
+	background-color:#DE3631;
+}
+.grid-item-whiteI2{
+background-color:white;
+}
+.grid-item-blueI2{
+	background-color:#2D76B7;
+}
+.grid-item-whiteI3{
+background-color:white;
+}
+.grid-item-whiteI4{
+background-color:white;
+}
+.grid-item-redI2{
+	background-color:#DE3631;
+}
+.grid-item-whiteI5{
+background-color:white;
+}
+.grid-item-whiteI6{
+background-color:white;
+}
+.grid-item-redI3{
+	background-color:#DE3631;
+}
+.grid-item-redI4{
+	background-color:#DE3631;
+}
+.grid-item-redI5{
+	background-color:#DE3631;
+}
+.grid-item-redI6{
+	background-color:#DE3631;
+}
+.grid-item-redI7{
+	background-color:#DE3631;
+}
+.grid-item-whiteI7{
+background-color:white;
+}
+.grid-item-whiteI8{
+background-color:white;
+}
+.grid-item-redI8{
+	background-color:#DE3631;
+}
+.grid-item-whiteI9{
+background-color:white;
+}
+.grid-item-whiteI10{
+background-color:white;
+}
+.grid-item-blueI3{
+	background-color:#2D76B7;
+}
+.grid-item-whiteI11{
+background-color:white;
+}
+.grid-item-redI9{
+	background-color:#DE3631;
+}
+.grid-item-whiteI12{
+background-color:white;
+}
+.grid-item-blueI4{
+	background-color:#2D76B7;
+}
+/*End Iceland Flag*/
+
+/*start My Own Flag*/
+.flag-myOwn{
+	width:180px;
+	height:80px;
+	grid-template-columns: 40px 20px 30px 20px 70px; 
+	grid-template-rows: 50px 30px 50px;
+	
+}
+.flag-myOwn div{
+/*border:1px solid black;*/
+}
+.grid-item-purple{
+	background-color: #A571EA;
+}
+.grid-item-purple2{
+	background-color: #A571EA;
+}
+.grid-item-purple3{
+	background-color: #A571EA;
+}
+.grid-item-yelllowo1{
+	background-color:#F4CF14;
+}
+.grid-item-black1{
+	background-color:black;
+}
+.grid-item-pink{
+background-color:#F94EF9;
+}
+.grid-item-redo1{
+	background-color:#DC3732;
+}
+.grid-item-orange{
+	background-color:#FF9D00;
+}
+.grid-item-yellowo2{
+	background-color:#F4CF14;
+}
+.grid-item-black2{
+	background-color:black;
+}
+.grid-item-yellowo3{
+	background-color:#F4CF14;
+}
+.grid-item-yellowo4{
+	background-color:#F4CF14;
+}
+.grid-item-yellowo5{
+	background-color:#F4CF14;
+}
+.grid-item-yellowo6{
+	background-color:#F4CF14;
+}
+.grid-item-yellowo7{
+	background-color:#F4CF14;
+}
+
+
+
+
+
+	

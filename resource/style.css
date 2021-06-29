@@ -1,0 +1,26 @@
+body{
+	font-family: 'Basic Sans',Helvetica, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.header{
+	grid-column-start: 1;
+	grid-column-end:4;
+}
+.header h1{
+	font-family: 'Fredoka One',cursive;
+	font-size: 2.5em;
+	background-color:#FFDEB5;
+	padding: 30px 30px;
+	text-align:left;
+	text-decoration: none;
+}
+h2{
+	font-family: 'Fredoka One',cursive;
+	font-size: 1.5em;	
+}

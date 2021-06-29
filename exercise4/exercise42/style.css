@@ -1,0 +1,145 @@
+
+.header{
+	text-align:center;
+	z-index:1;
+}
+.thailandMap{
+	position:relative;
+	width:500px;
+	height:700px;
+}
+.bangkok-grand-palace iframe{
+	position:absolute;
+	top:900px;
+	left:420px;
+	z-index:3;
+}
+.arrow-down-bangkok-grand-palace {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	position:absolute;
+	top:700px;
+	left:650px;
+	border: solid midnightblue;
+	border-width: 0 8px 8px 0;
+	display: inline-block;
+	padding: 15px;
+	position:absolute;
+	z-index:3;
+}
+.bangkok-grand-palace h3{
+	position:absolute;
+	top:850px;
+	left:550px;
+	background-color:midnightblue;
+	color:yellow;
+	z-index:3;
+}
+.bangkok-Chatuchakmarket iframe{
+	position:absolute;
+	top:600px;
+	right:150px;
+	z-index:3;
+}
+.bangkok-Chatuchakmarket h3{
+	position:absolute;
+	top:550px;
+	right:200px;
+	background-color:midnightblue;
+	color:yellow;
+	z-index:3;
+}
+.arrow-right-bangkok{
+	position:absolute;
+	top:670px;
+	right:650px;
+	border: solid midnightblue;
+	border-width: 0 8px 8px 0;
+	display: inline-block;
+	padding: 15px;
+	position:absolute;
+	z-index:3;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+.chiangmai-night-safari iframe{
+	position:absolute;
+	top:150px;
+	right:250px;
+	z-index:3;
+}
+.chiangmai-night-safari h3{
+	position:absolute;
+	top:100px;
+	left:850px;
+	background-color:midnightblue;
+	color:yellow;
+	z-index:3;
+}
+.arrow-right-chiangmai{
+	position:absolute;
+	top:270px;
+	right:730px;
+	border: solid midnightblue;
+	border-width: 0 8px 8px 0;
+	display: inline-block;
+	padding: 15px;
+	position:absolute;
+	z-index:3;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+.arrow-left-chiangmai{
+	position:absolute;
+	top:260px;
+	left:440px;
+	border: solid midnightblue;
+	border-width: 0 8px 8px 0;
+	display: inline-block;
+	padding: 15px;
+	position:absolute;
+	z-index:3;
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+}
+.karen-long-neck-tribe iframe{
+	position:absolute;
+	top:150px;
+	left:40px;
+	z-index:3;	
+}
+.karen-long-neck-tribe h3{
+	position:absolute;
+	top:100px;
+	left:40px;
+	background-color:midnightblue;
+	color:yellow;
+	z-index:3;	
+}
+.phuket-patong-beach iframe{
+	position:absolute;
+	top:700px;
+	left:40px;
+	z-index:3;	
+}
+.phuket-patong-beach h3{
+	position:absolute;
+	top:650px;
+	left:40px;
+	background-color:midnightblue;
+	color:yellow;
+	z-index:3;
+}
+.arrow-up-phuket{
+	position:absolute;
+	top:1100px;
+	left:300px;
+	border: solid midnightblue;
+	border-width: 0 8px 8px 0;
+	display: inline-block;
+	padding: 15px;
+	position:absolute;
+	z-index:3;
+	transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+}
